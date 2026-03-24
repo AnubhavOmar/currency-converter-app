@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,13 +6,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Background */
+
 body {
     background: url("https://images.unsplash.com/photo-1621504450181-5c3b0c8d8c6b") no-repeat center center/cover;
     color: white;
 }
 
-/* Navbar */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@ nav a:hover {
     color: yellow;
 }
 
-/* Main Box */
+
 #main {
     width: 350px;
     margin: 80px auto;
@@ -51,7 +51,7 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-/* Inputs & Select */
+  
 input, select {
     width: 100%;
     padding: 10px;
@@ -60,7 +60,18 @@ input, select {
     border: none;
 }
 
-/* Button */
+  /* Removing the arrows from the input text  */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    appearance: textfield;
+}
+
+
 button {
     width: 100%;
     padding: 10px;
@@ -76,13 +87,13 @@ button:hover {
     background: #00a2d4;
 }
 
-/* Result */
+
 #result {
     margin-top: 15px;
     font-size: 18px;
 }
 
-/* Sections */
+
 section {
     padding: 50px;
     background: rgba(0, 0, 0, 0.7);
