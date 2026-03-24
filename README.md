@@ -36,14 +36,14 @@ A real-time currency converter built using HTML, CSS, and JavaScript. It fetches
 ---
 
 ## Project Structure
-currency-converter-app/
+currency-converter-app/<br>
 │
-├── index.html
-├── README.md
-├── css/
-│ └── style.css
-├── js/
-│ └── script.js
+├── index.html<br>
+├── README.md<br>
+├── css/<br>
+│ └── style.css<br>
+├── js/<br>
+│ └── script.js<br>
 
 
 
