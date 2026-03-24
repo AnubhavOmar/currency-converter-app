@@ -1,0 +1,90 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background */
+body {
+    background: url("https://images.unsplash.com/photo-1621504450181-5c3b0c8d8c6b") no-repeat center center/cover;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Main Box */
+#main {
+    width: 350px;
+    margin: 80px auto;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#main h2 {
+    margin-bottom: 15px;
+}
+
+/* Inputs & Select */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #00c3ff;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00a2d4;
+}
+
+/* Result */
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+}
