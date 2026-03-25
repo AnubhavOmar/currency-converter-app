@@ -3,8 +3,8 @@
 A real-time currency converter built using HTML, CSS, and JavaScript. It fetches live exchange rates from an API and allows users to convert between different currencies.
 
 ---
-
-
+Deployed on Github-pages --
+https://anubhavomar.github.io/currency-converter-app/
 ---
 
 ## Features
@@ -35,17 +35,17 @@ A real-time currency converter built using HTML, CSS, and JavaScript. It fetches
 
 ---
 
-## Project Structure
-currency-converter-app/<br>
+## Project Structure~~
+```
+currency-converter-app
 │
-├── index.html<br>
-├── README.md<br>
-├── css/<br>
-│ └── style.css<br>
-├── js/<br>
-│ └── script.js<br>
-
-
+├── index.html
+├── README.md
+├── css/
+│ └── style.css
+├── js/
+│ └── script.js
+```
 
 ---
 
