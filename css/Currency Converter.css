@@ -60,7 +60,7 @@ input, select {
     border: none;
 }
 
-  /* Removing the arrows from the input text  */
+  /* Removing the arrow from the input text  */
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
